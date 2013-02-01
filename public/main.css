@@ -5,7 +5,7 @@ a:hover {color: rgba(196, 18, 0, 0.90); text-decoration:none; cursor: pointer;}
 
 @font-face{
 	font-family: title_font;
-	src:url('RegencieLight.ttf');
+	src:url('BebasNeue.otf');
 }
 @font-face{
 	font-family: body_font;
@@ -25,6 +25,10 @@ a .head{
 }
 body{
 	background-image: url('debut_light.png');
+}
+.btn-danger.call{
+	font: 23px title_font;
+	padding: 10px 22px;
 }
 #container{
 	width: 900px;
@@ -82,15 +86,15 @@ body{
 .foodmain{
 	position: relative;
 	padding-top: 45px;
-	padding-bottom: 30px;
+	padding-bottom: 45px;
 	border: 2px solid rgba(196, 18, 0, 0.90);
 	border-radius: 5px;
-	margin-top: 45px;
-	margin-bottom: 30px;
+	margin-top: 60px;
 }
 
 .foodmain .innerWrapper{
 	width: 825px;
+	padding-top: 15px;
 }
 
 .innerWrapper{
@@ -111,7 +115,7 @@ body{
 	border-radius: 5px 5px 5px 5px;
 	color: white;
 	font-size: 25px;
-	padding: 10px;
+	padding: 15px;
 	position: absolute;
 	text-align: center;
 	background-color: rgb(196, 18, 0);
@@ -146,9 +150,8 @@ body{
 .reviewblurb{
 	font-family: "ff-din-web", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
 	margin: 13px;
-	padding: 10px;
-	padding-top: 15px;
-	width: 215px;
+	padding: 15px;
+	width: 206px;
 	background-image: url('debut_light.png');
 	opacity: .8;
 	position: absolute;
@@ -159,7 +162,7 @@ body{
 	padding-top: 5px;
 }
 .name{
-	font: 36px/32px title_font;
+	font: 30px/28px body_font;
 }
 .yelp{
 	padding-top: 15px;
@@ -167,20 +170,19 @@ body{
 }
 .blurb{
 	padding-top: 5px;
-	font-size: 25px;
+	font-size: 20px;
 	font-family: body_font;
 }
 .comment{
-	font-family: coolvetica_font;
 	text-align: center;
-	font-size: 15px;
-	margin: 18px;
-	padding: 5px;
+	font: 14px/16px coolvetica_font;
+	margin: 14px;
+	padding: 10px;
 	width: 215px;
 	background-image: url('debut_light.png');
 	opacity: .8;
 	position: relative;
-	top: -82px;
+	top: -79px;
 	z-index: 99999;
 }
 .input-xlarge{
@@ -191,24 +193,20 @@ body{
 /*Sign Up stuff*/
 #signup {
 	text-align: center;
-	padding: 15px;
+	padding: 30px;
 	background-color: rgba(255, 255, 255, 0.80);
 	border-radius: 5px;
 }
 #signup #signUpBlurb{
-	font-size: 45px;
-	line-height: 35px;
+	font: 45px/42px title_font;
 	padding-bottom: 15px;
 	width: 550px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: title_font;
 }
 #signup #signUpInfo{
-	font-family: coolvetica_font;
-	font-size: 20px;
-	padding-bottom: 15px;
-	line-height: 20px;
+	font: 20px/22px coolvetica_font;
+	padding-bottom: 25px;
 }
 
 /*friends */
