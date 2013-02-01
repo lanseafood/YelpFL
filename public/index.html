@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="main.css" />
+	<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			<div id ="logo"> 
+				<img id="pic" src="yelp-logo.png"/>
+			</div>
+			<div id="navigation">
+				<a class="head"><b>Home</b></a>
+				<a class="head">Write a Review</a>
+				<a class="head">Events</a>
+				<a class="head">Sign Up</a>
+				<a class="head">Log In</a>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div id="searchBar">
+			<div class="innerWrapper">
+				<input class="input-xlarge" type="text" placeholder="search for">
+				<input class="input-xlarge" type="text" placeholder="near(address, City, State, or Zip)">
+				<button class="btn" type="button">Search!</button>
+			</div>
+		</div>
+
+		<div class="foodmain">
+			<div class="feature" id="first">Featured Restaurants</div> 
+			<div class="innerWrapper">
+				<div id="image1" class="picture">
+					<div class="reviewblurb">
+						<a class="placehold">
+							<div class="name">Pluto's</div>
+							<div class="yelp">
+								<img class="stars" alt="Stars_4" src="https://s3.amazonaws.com/trycaviar.com/yelp/stars_4.png">		
+								<div class="ratingCount">700+ Reviews</div>			
+							</div>
+							<div class="blurb">try more, can't help but camwhore</div>
+						</a>
+					</div>
+
+					<img class="food_img" src="leftfood.png" alt=""/>
+					<img class="clone_img" src="left2.png" alt=""/>
+					<div class="comment">James: Don't forget to order the famous garlic fries.</div>
+
+				</div>
+				<div id="image2" class="picture">
+					<div class="reviewblurb">
+						<a class="placehold">
+							<div class="name">Gather</div>
+							<div class="yelp">
+								<img class="stars" alt="Stars_4" src="https://s3.amazonaws.com/trycaviar.com/yelp/stars_4.png">		
+								<div class="ratingCount">700+ Reviews</div>			
+							</div>
+							<div class="blurb">so good, I can't believe it's Vegan</div>
+						</a>
+					</div>
+					<img class="food_img" src="middlefood.png" alt=""/>
+					<img class="clone_img" src="middle2.png" alt=""/>
+					<div class="comment">Kate: Small portions, excellent tasting, but pricey!</div>
+				</div>
+				<div id="image3" class="picture last">
+					<div class="reviewblurb">
+						<a class="placehold">
+							<div class="name">Venus</div>
+							<div class="yelp">
+								<img class="stars" alt="Stars_4" src="https://s3.amazonaws.com/trycaviar.com/yelp/stars_4.png">		
+								<div class="ratingCount">700+ Reviews</div>			
+							</div>
+							<div class="blurb">to the stars and back</div>
+						</a>
+					</div>
+
+					<img class="food_img" src="rightfood.png" alt=""/>
+					<img class="clone_img" src="right2.png" alt=""/>
+					<div class="comment">Judy: Very solid dinner spot in Berkeley</div>
+
+				</div>
+				<div class="clear"></div>
+			</div>
+
+		</div>
+		<!--end of image loop-->
+		<hr id="footend"/>
+
+		<div id="signup">
+			<div id="signUpBlurb">
+				Yelp is the best way to find local businessess
+			</div>
+			<div id="signUpInfo">
+				People use Yelp to search for everything from the city's tastiest burger to the most renowned cardiologist. 
+				What will you uncover in your neighborhood?
+			</div>
+			<button class="btn btn-danger" type="button">sign up free</button>
+		</div>
+		<hr id="footend"/>
+
+		<!--end of signup marketing-->
+		<div class="row">
+			<div class="pull-left span5 extras">
+				<div class="feature" id="second">Friends's Activity</div>
+				<div class="reviews">
+					<div class="info">
+						<div class="image"><img src="http://s3-media4.ak.yelpcdn.com/photo/8uPjbY20g5-RfJuLD69fLA/60s.jpg"/></div>
+						<div class="person">Morgan R. on <b>Angeline's</b></div>
+						<img alt="Stars_4" src="https://s3.amazonaws.com/trycaviar.com/yelp/stars_4.png">
+
+					</div>
+					<div class="r">Good Cajun food for Northern CA....
+					</div>
+				</div>
+
+				<div class="clear"></div>
+
+				<div class="reviews">
+					<div class="info">
+						<div class="image"><img src="http://s3-media3.ak.yelpcdn.com/photo/MHsf4ggOwSZ6MCNTI4ZZrw/60s.jpg"/></div>
+						<div class="person">Irene G. on <b>Southie</b></div>
+						<img alt="Stars_4" src="https://s3.amazonaws.com/trycaviar.com/yelp/stars_4.png">
+					</div>
+					<div class="r">I didn't expect what I considered a sandwich-/bar-type place to have such great entrees for dinner! We...
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="centerbutton"><button class="btn btn-danger" type="button">more friends' reviews</button></div>
+			</div>
+			<!--monbile start-->
+			<div class="pull-left span5 extras">
+				<div class="feature" id="third">Yelp on the Go</div>
+				<div id="mobileHead">Heading out? Bring Yelp with you!</div>
+				<img id="mobilepic" src="yelpmobile.png"> </img>
+				<div id="text">Find the best businesses around you, save money by discovering nearby deals, and share your experiences with Tips, Check-ins, and Photos.</div>
+			</div>
+			<div style="clear: both"></div>
+		</div>
+
+		<footer>
+			<hr id="footend"/>
+			<p>Designed by</p>
+			<img src="Llogo.png"/>
+			&
+			Lichen Han's logo
+			<p>
+				<a>About</a>
+				<a>Terms of Service</a>
+				<a>Privacy Policy</a>
+				<a>FAQ</a>
+				<a>Support</a>
+				<a>Careers</a>
+				<a>Contact</a>
+			</p>
+			<p>Copyright 2004-2012 Yelp Inc. Yelp logo and related marks are registered trademarks of Yelp. All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>
