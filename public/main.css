@@ -26,9 +26,16 @@ a .head{
 body{
 	background-image: url('debut_light.png');
 }
+.btn.search{
+	font-weight: bold;
+}
 .btn-danger.call{
 	font: 23px title_font;
 	padding: 10px 22px;
+}
+.btn-danger.friends{
+	font-weight: bold;
+	padding: 5px 15px;
 }
 #container{
 	width: 900px;
@@ -67,10 +74,8 @@ body{
 	margin-top: 15px;
 }
 #searchBar .input-xlarge{
-	margin-left: 15px;
-	margin-right: 15px;
 	padding-left: 15px;
-	padding-right: 41px;
+	padding-right: 35px;
 }
 #searchBar .innerWrapper{
 	width: 790px;
@@ -115,7 +120,7 @@ body{
 	border-radius: 5px 5px 5px 5px;
 	color: white;
 	font-size: 25px;
-	padding: 15px;
+	padding: 15px 15px 14px 15px;
 	position: absolute;
 	text-align: center;
 	background-color: rgb(196, 18, 0);
@@ -123,17 +128,17 @@ body{
 }
 
 .feature#first{
-	left: 311px;
-	top: -23px;
+	left: 334px;
+	top: -25px;
 }
 
 .feature#second{
-	left: 100px;
+	left: 123px;
 	top: -23px;
 }
 
 .feature#third{
-	left: 104px;
+	left: 133px;
 	top: -23px;
 }
 
@@ -168,6 +173,14 @@ body{
 	padding-top: 15px;
 	font-size: 15px;
 }
+.stars{
+	float: left;
+}
+.ratingCount{
+	float: left;
+	margin-left: 5px;
+	line-height: 15px;
+}
 .blurb{
 	padding-top: 5px;
 	font-size: 20px;
@@ -198,14 +211,15 @@ body{
 	border-radius: 5px;
 }
 #signup #signUpBlurb{
-	font: 45px/42px title_font;
+	font: 48px/42px title_font;
 	padding-bottom: 15px;
 	width: 550px;
 	margin-right: auto;
 	margin-left: auto;
 }
 #signup #signUpInfo{
-	font: 20px/22px coolvetica_font;
+	font-size: 16px;
+	font-weight:bold;
 	padding-bottom: 25px;
 }
 
@@ -219,23 +233,22 @@ body{
 	margin-top: 45px;
 	margin-right: auto;
 	margin-left: auto;
-
+	padding-bottom: 30px;
 }
 .extras{
 	position: relative;
-	padding: 30px 15px 15px 15px;
+	padding: 30px 15px 45px 20px;
 	border: 2px solid rgba(196, 18, 0, 0.90);
 	border-radius: 5px;
 	vertical-align: top;
-	height: 325px;
+	height: 335px;
 }
 
 .info{
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 .person{
-	font-family: body_font;
-	font-size: 23px;
+	font-size: 20px;
 	padding-top: 10px;
 }
 .image{
@@ -254,10 +267,10 @@ body{
 	margin-bottom: 10px;
 }
 #mobileHead{
-	font-family: coolvetica_font;
+	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 }
 #text{
 margin: 15px;
