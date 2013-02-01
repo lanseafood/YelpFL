@@ -156,7 +156,7 @@ body{
 .reviewblurb{
 	font-family: "ff-din-web", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
 	margin: 13px;
-	padding: 15px;
+	padding: 15px 15px 0px 15px;
 	width: 206px;
 	background-image: url('debut_light.png');
 	opacity: .8;
@@ -293,6 +293,9 @@ padding-bottom: 5px;
 /*footer stuff */
 footer{
 	text-align: center;
+}
+.verticalLine{
+	border-left: thin solid #ff0000;
 }
 #footend{
 	margin-bottom: 15px;
