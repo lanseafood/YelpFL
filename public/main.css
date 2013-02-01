@@ -32,6 +32,7 @@ body{
 .btn-danger.call{
 	font: 23px title_font;
 	padding: 10px 22px;
+	letter-spacing: 2px;
 }
 .btn-danger.friends{
 	font-weight: bold;
@@ -92,18 +93,18 @@ body{
 	position: relative;
 	padding-top: 45px;
 	padding-bottom: 45px;
-	border: 2px solid rgba(196, 18, 0, 0.90);
-	border-radius: 5px;
+	border-top: 2px solid rgba(196, 18, 0, 0.90);
+	border-radius: 0px;
 	margin-top: 60px;
 }
 
 .foodmain .innerWrapper{
-	width: 825px;
 	padding-top: 15px;
 }
 
 .innerWrapper{
 	margin: auto;
+	padding: 0 26px;
 }
 .clone_img{
 	position: absolute;
@@ -144,7 +145,7 @@ body{
 
 .picture{
 	float: left;
-	margin-right: 15px;
+	margin-right: 29px;
 	position: relative;
 	height: 460px;
 }
@@ -188,7 +189,8 @@ body{
 }
 .comment{
 	text-align: center;
-	font: 14px/16px coolvetica_font;
+	font-size: 14px;
+	line-height: 16px;
 	margin: 14px;
 	padding: 10px;
 	width: 215px;
